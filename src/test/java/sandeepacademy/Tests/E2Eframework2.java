@@ -41,6 +41,8 @@ public class E2Eframework2  extends BaseTest {
 	// 10. Close the browser
 		
 	// This is a add in branch AB-1234
+		// This is a add in branch AB-2345
+		
 		
 	}
 
