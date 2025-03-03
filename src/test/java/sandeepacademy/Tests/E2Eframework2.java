@@ -27,7 +27,24 @@ public class E2Eframework2  extends BaseTest {
 		ConfirmationPage confirmationPage=checkOutPage.submitOrder();
 		String message=confirmationPage.getConfirmationMessaage();
 		Assert.assertTrue(message.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-					
+		// This is a add in branch AB-3456*******				
+		
+	// 1. Login to the application
+	// 2. Add a product to the cart
+	// 3. Go to the cart page
+	// 4. Verify the product is displayed in the cart
+	// 5. Go to the checkout page
+	// 6. Select the country
+	// 7. Submit the order
+	// 8. Verify the confirmation message
+	// 9. Logout
+	// 10. Close the browser
+		
+	// This is a add in branch AB-1234
+		// This is a add in branch AB-2345
+		// This is a add in branch AB-3456*******
+		
+		
 	}
 
 }
