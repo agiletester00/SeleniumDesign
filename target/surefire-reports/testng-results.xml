@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T14:01:26 IST" name="Suite" finished-at="2025-02-20T14:02:01 IST" duration-ms="35113">
+    <groups>
+      <group name="Purchase">
+        <method signature="ErrorValidations.E2EDemo2(java.util.HashMap)[pri:0, instance:sandeepacademy.Tests.ErrorValidations@4facf68f]" name="E2EDemo2" class="sandeepacademy.Tests.ErrorValidations"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-20T14:01:26 IST" name="Validations" finished-at="2025-02-20T14:02:01 IST" duration-ms="35113">
+      <class name="sandeepacademy.Tests.ErrorValidations">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:sandeepacademy.Tests.ErrorValidations@4facf68f]" started-at="2025-02-20T14:01:27 IST" name="lunchApplication" finished-at="2025-02-20T14:01:40 IST" duration-ms="13590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="E2EDemo2(java.util.HashMap)[pri:0, instance:sandeepacademy.Tests.ErrorValidations@4facf68f]" started-at="2025-02-20T14:01:40 IST" name="E2EDemo2" data-provider="getData" finished-at="2025-02-20T14:01:44 IST" duration-ms="4068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Apple@123, email=example987@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2EDemo2 -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:sandeepacademy.Tests.ErrorValidations@4facf68f]" started-at="2025-02-20T14:01:44 IST" name="lunchApplication" finished-at="2025-02-20T14:01:57 IST" duration-ms="12756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="E2EDemo2(java.util.HashMap)[pri:0, instance:sandeepacademy.Tests.ErrorValidations@4facf68f]" started-at="2025-02-20T14:01:57 IST" name="E2EDemo2" data-provider="getData" finished-at="2025-02-20T14:02:01 IST" duration-ms="3886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Red@rose1, email=agiletester00@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2EDemo2 -->
+      </class> <!-- sandeepacademy.Tests.ErrorValidations -->
+    </test> <!-- Validations -->
+  </suite> <!-- Suite -->
+</testng-results>
