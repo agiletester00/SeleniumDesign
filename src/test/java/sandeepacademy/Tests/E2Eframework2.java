@@ -40,6 +40,8 @@ public class E2Eframework2  extends BaseTest {
 	// 9. Logout
 	// 10. Close the browser
 		
+	// This is a add in branch AB-1234
+		
 	}
 
 }
