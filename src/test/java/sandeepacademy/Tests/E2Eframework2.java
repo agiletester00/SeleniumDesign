@@ -27,7 +27,11 @@ public class E2Eframework2  extends BaseTest {
 		ConfirmationPage confirmationPage=checkOutPage.submitOrder();
 		String message=confirmationPage.getConfirmationMessaage();
 		Assert.assertTrue(message.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+<<<<<<< HEAD
 		// This is a add in branch AB-3456*******				
+=======
+					
+>>>>>>> 735d74e98b8ad137b88c5ea9d38a2b0f9b1aff0b
 		
 	// 1. Login to the application
 	// 2. Add a product to the cart
@@ -42,7 +46,10 @@ public class E2Eframework2  extends BaseTest {
 		
 	// This is a add in branch AB-1234
 		// This is a add in branch AB-2345
+<<<<<<< HEAD
 		// This is a add in branch AB-3456*******
+=======
+>>>>>>> 735d74e98b8ad137b88c5ea9d38a2b0f9b1aff0b
 		
 		
 	}
